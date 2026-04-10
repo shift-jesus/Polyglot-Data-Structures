@@ -42,7 +42,7 @@ int main() {
     curso[1].notas[2][1] = 3.9;
 
     // 4. Recorrido del arreglo de estructuras
-    printf("--- REGISTRO ACADEMICO UNITARIO ---");
+    printf("--- REGISTRO ACADEMICO UNITARIO ---\n");
     for (int i = 0; i < 2; i++) {
         mostrarRecord(curso[i]);
     }
